@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(7, 7, 56);
+    overflow: hidden;
+}
+.fa-youtube,.fa-instagram,.fa-telegram,.fa-twitter {
+    color: #fff;
+    position: absolute;
+    top: -20px;
+    animation: fall linear forwards;
+}
+@keyframes fall {
+    to  {
+        transform: translateY(110vh);
+    }
+}
+
